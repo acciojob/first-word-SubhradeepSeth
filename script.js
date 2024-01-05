@@ -10,8 +10,8 @@ function firstWord(s) {
 	}
 	for (let i=k;i<s.length;i++) {
 		// if(i===0 && s.charAt(i)===" ") continue;
-		str=str+s.charAt(i);
 		if(s.charAt(i)===" ") break;
+		str=str+s.charAt(i);
 	}
 	return str;
 }
